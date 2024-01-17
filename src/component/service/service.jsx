@@ -3,7 +3,7 @@ import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import { servicesData } from "../../data/data";
 import "../OurServices/OurServices.css";
 
-const Services = () => {
+const Service = () => {
   return (
     <section>
       <Heading icon={<MdOutlineMiscellaneousServices />} title="our services" />
@@ -24,4 +24,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Service;
