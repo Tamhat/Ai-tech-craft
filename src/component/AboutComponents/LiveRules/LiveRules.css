@@ -29,7 +29,9 @@
     text-align: left;
 }
 
-
+p{
+    line-height: 1.6!important;
+}
 
 
 /* ===========Media Queries (mediam device)============= */

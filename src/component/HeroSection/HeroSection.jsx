@@ -15,9 +15,7 @@ const HeroSection = () => {
             </h1>
           <p className="hero__text">
             AI Tech Craft is a leading provider of AI solutions for the future. 
-            We are a team of highly skilled and experienced professionals who 
-            have been working in the field of artificial intelligence for over
-            10 years. Our goal is to help businesses leverage the power of AI
+            We are a team for your top need.
             </p>
           <div className="hero__btn">
             <button className="btn">Get Started</button>

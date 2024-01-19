@@ -11,12 +11,11 @@ const HeroAbout = () => {
         </div>
         <div className="heroAbout__right">
             <h1 className="heading">
-            Guiding sales teams on the proven path to success
+            Guiding Businesses on the proven path to success
             </h1>
 
             <div className="heroAbout__des">
-                <p className="card__des">The People.ai enterprise revenue intelligence platform helps teams speed up complex enterprise sales cycles by engaging the right people in the right accounts.</p>
-                <p className="card__des">We do it by helping teams clearly see who to engage within each account and exactly what to do to deliver the highest-yielding deals and blow out their numbers every single quarter.</p>
+                <p className="card__des">Welcome to Ai Tech Craft, where innovation meets craftsmanship in the realm of AI technology, web development, and app creation. We are a dynamic team of passionate technologists, dedicated to transforming ideas into intelligent solutions that redefine possibilities.</p>
             </div>
 
             <a href="#" className='btn'>Get a Demo</a>

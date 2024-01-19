@@ -1,0 +1,22 @@
+.service-details{
+    margin-top: 45px!important;
+    place-items: center!important;
+}
+.service-details .heroAbout__right {
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.service-details .heroAbout__right > .heading {
+    font-size: 6.1rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.service-details .heroAbout__des p {
+    line-height: 1.7!important;
+    text-wrap: ;
+}

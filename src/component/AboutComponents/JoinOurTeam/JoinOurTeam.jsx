@@ -7,7 +7,7 @@ const JoinOurTeam = () => {
         <div className="container joinTeam__container">
             <div className="joinTeam__left">
                 <h1 className="heading">Join our team. Make an impact.</h1>
-                <p className="card__des">If you’re passionate about helping businesses grow, we’d love to hear from you! Join our mission to provide industry-leading digital marketing services to businesses around the globe – all while growing personally and professionally.</p>
+                <p className="card__des">If you’re passionate about helping businesses grow, we’d love to hear from you! Join our mission to provide industry-leading Digital services to businesses around the globe – all while growing personally and professionally.</p>
 
                 <div className="btn">VIEW AVAILABLE POSITIONS</div>
             </div>

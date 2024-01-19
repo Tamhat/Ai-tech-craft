@@ -11,13 +11,15 @@ const Service = () => {
       <div className="container services__container">
         {servicesData &&
           servicesData?.map(({ id, icon, title, des }) => {
-              return (
-                <div className="services__card" key={id}>
+            return (
+              <div className="services__card" key={id}>
+                <a href={`/services/service-details/${id}`} className="service-details link">
                   <div className="services__icon">{icon}</div>
-                      <div className="card__title">{title}</div>
-                      <h5 className="card__des">{ des }</h5>
-                </div>
-              );
+                  <div className="card__title">{title}</div>
+                  <h5 className="card__des">{des}</h5>
+                </a>
+              </div>
+            );
           })}
       </div>
     </section>

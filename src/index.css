@@ -45,6 +45,9 @@
   border: none;
   outline: none;
   list-style: none;
+  p{
+    line-height: 1.6;
+  }
 }
 
 html{

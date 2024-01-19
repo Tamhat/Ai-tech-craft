@@ -9,6 +9,7 @@ import Products from "./pages/Products/Products";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import ServiceDetails from "./pages/ServiceDetails/ServiceDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/services" element={<Services />} />
+          <Route exact path="/services/service-details/:id" element={<ServiceDetails />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

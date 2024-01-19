@@ -73,25 +73,25 @@ export const servicesData = [
     id: 1,
     icon: <BsRobot />,
     title: "AI Application Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
+    des: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
   },
   {
     id: 2,
     icon: <FaLaptopCode />,
     title: "Web Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
+    des: "Revolutionize your online presence with our Web Development services. Our expert team transforms concepts into dynamic, user-friendly websites, ensuring your brand stands out in the digital realm. Elevate your online identity with our cutting-edge solutions.",
   },
   {
     id: 3,
     icon: <BsFillFileEarmarkCodeFill />,
     title: "Web Application Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
+    des: "Empower your business with our Web Application Development services. We create custom, user-friendly web solutions that seamlessly blend innovation and functionality, elevating your online presence and optimizing performance.",
   },
   {
     id: 4,
     icon: <FaBullhorn />,
     title: "Ai Model",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
+    des: "Elevate your business with our AI Model service. Unlock insights, automate decisions, and stay ahead in the digital age",
   },
 ];
 
@@ -326,7 +326,7 @@ export const liveRulesData = [
     id: 6,
     icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1433.svg",
     title: "Work Hard / Play Hard",
-    description: "We here at Comrade are truly a family. We work hard together, and we play hard together, often gathering for activities and life cycle events. We care about each other’s interests and are there to support and lift one another up. We carry this philosophy through into how we treat our clients."
+    description: "We here at Ai Tech Craft are truly a family. We work hard together, and we play hard together, often gathering for activities and life cycle events. We care about each other’s interests and are there to support and lift one another up. We carry this philosophy through into how we treat our clients."
   },
 ]
 
@@ -448,6 +448,39 @@ export const marketingAgencyData = [
   }
 ]
 
+export const ServiceDetailsData = [
+  {
+    id: 1,
+    title: "Ai Application Development",
+    description1: "Empower your business with AI Application Development. Our expert team creates intelligent",
+    description2: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
+    img: "https://i.ibb.co/S5r62dg/poster-for-channel-telegrams-on-the-topic-of-AI-s.jpg",
+  },
+  {
+    id: 2,
+    title: "Web Development",
+    description1: "Empower your business with AI Application Development. Our expert team creates intelligent",
+    description2: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity  and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
+    img: "https://i.ibb.co/wJLtxXy/A-man-training-programmer-on-his-computer-1.jpg",
+    // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+  },
+  {
+    id: 3,
+    title: "Web Application Development",
+    description1: "Explore the core aspects of web application development, mastering both front-end and back-end techniques.",
+    description2: "Our AI-powered Web Application Development service leverages cutting-edge technology to enhance the efficiency and innovation of our projects.",
+    img: "https://i.ibb.co/XxX7rgw/A-photo-of-a-website-builder-The-website-builder.jpg",
+    // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+  },
+  {
+    id: 4,
+    title: "AI-Powered Model",
+    description1: "Revolutionizing Intelligence: Unveiling an Advanced AI Model for Cutting-Edge Solutions",
+    description2: "Our web page's AI model powers our Tech Craft Service, using advanced techniques for seamless and innovative solutions.",
+    img: "https://i.ibb.co/hF9SWvw/glowing-brain.jpg",
+    // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+  },
+]
 
 // ============faq data=========
 export const faqData = [
