@@ -2,6 +2,7 @@ import Heading from "../../helper/Heading/Heading";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import { servicesData } from "../../data/data";
 import "../OurServices/OurServices.css";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -13,11 +14,11 @@ const Service = () => {
           servicesData?.map(({ id, icon, title, des }) => {
             return (
               <div className="services__card" key={id}>
-                <a href={`/services/service-details/${id}`} className="service-details link">
+                <Link to={`/services/service-details/${id}`} className="service-details link">
                   <div className="services__icon">{icon}</div>
                   <div className="card__title">{title}</div>
                   <h5 className="card__des">{des}</h5>
-                </a>
+                </Link>
               </div>
             );
           })}
