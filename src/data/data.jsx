@@ -1,5 +1,3 @@
-
-
 // ===========for hero card data===========
 import { BsRobot, BsFillFileEarmarkCodeFill } from "react-icons/bs";
 import { FaLaptopCode, FaBullhorn } from "react-icons/fa";
@@ -44,7 +42,7 @@ export const heroCardData = [
   {
     id: 1,
     icon: <BsRobot />,
-    firstTitle: "AI Application",
+    firstTitle: "AI",
     lastTitle: "Development",
   },
   {
@@ -72,26 +70,30 @@ export const servicesData = [
   {
     id: 1,
     icon: <BsRobot />,
-    title: "AI Application Development",
+    title: "AI Development",
     des: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
+    link: "ai-app-development"
   },
   {
     id: 2,
     icon: <FaLaptopCode />,
     title: "Web Development",
     des: "Revolutionize your online presence with our Web Development services. Our expert team transforms concepts into dynamic, user-friendly websites, ensuring your brand stands out in the digital realm. Elevate your online identity with our cutting-edge solutions.",
+    link: "ai-app-development"
   },
   {
     id: 3,
     icon: <BsFillFileEarmarkCodeFill />,
     title: "Web Application Development",
     des: "Empower your business with our Web Application Development services. We create custom, user-friendly web solutions that seamlessly blend innovation and functionality, elevating your online presence and optimizing performance.",
+    link: "Web Development"
   },
   {
     id: 4,
     icon: <FaBullhorn />,
     title: "Ai Model",
     des: "Elevate your business with our AI Model service. Unlock insights, automate decisions, and stay ahead in the digital age",
+    link: "Ai Model"
   },
 ];
 
@@ -451,9 +453,9 @@ export const marketingAgencyData = [
 export const ServiceDetailsData = [
   {
     id: 1,
-    title: "Ai Application Development",
-    description1: "Empower your business with AI Application Development. Our expert team creates intelligent",
-    description2: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
+    title: "Ai Development",
+    description1: "Transform Your Business with Advanced AI Development",
+    description2: "At AI Tech Craft, we believe in making your business smarter, not harder. Our AI development services are crafted to breathe life into your operations, automating the mundane and revealing insights from the depths of your data. We specialize in transforming these insights into actionable strategies that enhance decision-making and boost operational efficiency. Let’s redefine what’s possible together, turning your visionary ideas into impactful realities with our innovative AI solutions.",
     img: "https://i.ibb.co/S5r62dg/poster-for-channel-telegrams-on-the-topic-of-AI-s.jpg",
   },
   {

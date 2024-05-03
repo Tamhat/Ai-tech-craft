@@ -7,15 +7,14 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <section className="hero__bg">
-      <div className="container hero__container">
+      <div className="container hero__container bg-black">
         {/* =======hero left section========== */}
         <div className="hero__left">
           <h1 className="hero__heading">
-            <h1>AI Solutions  for <br/> the Future</h1>
+            <h3>AI Tech Crafts - Pioneering Your Digital Future</h3>
             </h1>
-          <p className="hero__text">
-            AI Tech Craft is a leading provider of AI solutions for the future. 
-            We are a team for your top need.
+          <p className="hero__text text-[2px]">
+          Elevate your business with AI Tech Craft, your full-service partner in AI, web development, and digital marketing. We harness the power of advanced AI and innovative digital strategies to create solutions that drive results. From crafting responsive websites to deploying cutting-edge AI applications and executing impactful digital marketing campaigns, our expertise is your advantage. Let's build the future together.
             </p>
           <div className="hero__btn">
             <button className="btn">Get Started</button>

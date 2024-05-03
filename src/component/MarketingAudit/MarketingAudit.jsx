@@ -6,17 +6,18 @@ const MarketingAudit = () => {
     <section className='mAudit__bg'>
         <div className="container mAudit__container">
             <div className="mAudit__left">
-                <h1 className="heading">Free AI Marketing Audit from Ai Tech Craft.</h1>
+                <h1 className="heading">Get a Complimentary Marketing Audit</h1>
 
                 <div>
-                    <p className="card__des">The experts at our Ai Tech Craft have managed thousands of successful marketing campaigns, resulting in increases in qualified leads, phone calls, traffic, and most importantly— revenue.</p>
+                    <p className="card__des">Enhance your marketing strategy with a complimentary audit from AI Tech Craft. Our team of experts, skilled in managing numerous successful campaigns, will help increase your qualified leads, phone calls, traffic, and crucially—revenue. Begin with a no-cost digital strategy proposal and gain invaluable insights through:
+</p>
 
-                    <p className="card__des">Start by requesting an initial digital strategy proposal for free and receive:</p>
 
                     <ul>
-                        <li className='card__des'>Website review (content & CRO)</li>
-                        <li className='card__des'>SEO Audit: 20-point performance check</li>
-                        <li className='card__des'>Digital marketing strategy</li>
+                        <li className='card__des'>Website review focusing on content and conversion rate optimization (CRO)
+</li>
+                        <li className='card__des'>Detailed SEO Audit with a 20-point performance check</li>
+                        <li className='card__des'>Tailored digital marketing strategy to maximize your results</li>
                     </ul>
                 </div>
 

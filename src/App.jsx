@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/services/service-details/:id" element={<ServiceDetails />} />
+          <Route exact path="/services/service-details/:id/:link" element={<ServiceDetails />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

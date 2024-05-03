@@ -1,43 +1,61 @@
-
-import './DigitalMarketing.css'
+import "./DigitalMarketing.css";
 
 const DigitalMarketing = () => {
   return (
-   <section>
-    <div className="container dMarketing__container">
+    <section>
+      <div className="container dMarketing__container">
         <div className="dM__box__top">
-        <h1 className="heading">A single Business solution provider using AI for all of your needs</h1>
+          <h1 className="heading">
+            Your Premier Partner in Digital Marketting
+          </h1>
 
-<p className="card__des">Ai Tech Craft: Your ultimate business solution provider, harnessing the power of AI for all your needs. Streamline operations, elevate performance, and achieve unparalleled efficiency with our cutting-edge services.</p>
+          <p className="card__des">
+          At AI Tech Craft, we combine over a decade of expertise with innovative strategies to serve as your comprehensive digital marketing partner. Our team has successfully guided hundreds of businesses across the nation to achieve remarkable growth and enhanced revenue. We specialize in creating customized digital marketing solutions that not only meet your unique needs but also exceed your expectations in driving successful outcomes.
+          </p>
         </div>
 
         <div className="dM__box">
-        <div className="dMarketing__left">
-            <h1 className="heading">Attract customers with Ai Tech Craft's digital Ai services</h1>
+          <div className="dMarketing__left">
+            <h1 className="heading">
+              Dive Growth with strategic digital marketting
+            </h1>
             <p className="card__des">
-Capture customer attention with Ai Tech Craft's innovative AI-driven digital services. Our cutting-edge technology ensures a seamless and engaging experience for your audience. Elevate your brand with AI-powered solutions that go beyond expectations. Welcome to a new era of customer attraction, where our digital AI services redefine excellence.</p>
-        </div>
-        <div className="dMarketing__right">
+            Maximize your online impact with our strategic digital marketing services. Our expert team excels in SEO, Facebook Ads, and Google Ads, each crafted to enhance your visibility and drive traffic. Through precise targeting and data-driven strategies, we ensure your campaigns are optimized for the highest conversions, helping you achieve a substantial ROI. Dive into the digital marketing landscape with us and watch your business flourish as we turn insights into action and potential customers into actual revenue. 
+            </p>
+          </div>
+          <div className="dMarketing__right">
             <div className="dM__main">
-                <img src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/shutterstock_521785930-1-1-906x1024.jpg.webp" alt="" />
+              <img
+                src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/shutterstock_521785930-1-1-906x1024.jpg.webp"
+                alt=""
+              />
             </div>
 
             <div className="mD__top">
-                <img src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/small_reviews.png.webp" alt="" />
+              <img
+                src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/small_reviews.png.webp"
+                alt=""
+              />
             </div>
 
             <div className="dM__right">
-                <img src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/cart.png.webp" alt="" />
+              <img
+                src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/cart.png.webp"
+                alt=""
+              />
             </div>
 
             <div className="dM__left">
-                <img src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/wave_with_percent.png.webp" alt="" />
+              <img
+                src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/wave_with_percent.png.webp"
+                alt=""
+              />
             </div>
+          </div>
         </div>
-        </div>
-    </div>
-   </section>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default DigitalMarketing
+export default DigitalMarketing;

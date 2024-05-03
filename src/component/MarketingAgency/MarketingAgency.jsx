@@ -15,32 +15,31 @@ const MarketingAgency = () => {
       <div className="container mAgency__container">
         <div className="mAgency__left">
           <h1 className="heading">
-            Why Ai Tech Craft Is the Right choice for You
+            Why AI Tech Craft is Your Ideal Partner for Digital Transformation
           </h1>
           <div className="plan">
             <p className="card__des">
-            Ai Tech Craft is one of the best business growth solution provider using AI on nationwide,
-              that also offers service to businesses nationwide. To guarantee
-              your success we follow a few simple rules:
+            Experience Comprehensive Digital Excellence with AI Tech Craft
+            </p>
+            <p className="card__des">
+              AI Tech Craft stands out as your premier choice for integrating
+              AI, web development, and digital marketing solutions. Our unique
+              approach guarantees your success through a few key principles:
             </p>
 
             <ul>
               <li className="card__des">
-                A new project is never taken on unless we have a written plan to
-                deliver results.
+              Strategic Planning: We commit to new projects only with a robust, results-oriented plan in place.
+
               </li>
               <li className="card__des">
-                Our Ai Models analyzes our clients’ data and determines precisely how
-                our services will help them grow.
+              Data-Driven Analysis: Our team meticulously analyzes your data to tailor our AI and web solutions, ensuring they perfectly align with your growth objectives.
               </li>
               <li className="card__des">
-                Unlike other Ai Models, we guarantee the
-                results of our work.
+              Guaranteed Results: Unlike other agencies, we stand behind our promise to deliver measurable outcomes.
               </li>
               <li className="card__des">
-                Our team of Ai Models experts is your partner for
-                long-term success, delivering an inbound strategy that delivers
-                on your business goals.
+              Long-Term Partnership: Consider us your ally in navigating the complexities of digital transformation, committed to your long-term success through innovative strategies and cutting-edge technology.
               </li>
             </ul>
           </div>
@@ -51,20 +50,15 @@ const MarketingAgency = () => {
               <p className="card__title">YEARS IN BUSINESS</p>
             </div>
             <div className="mAgency__card">
-              <h1 className="heading">30+</h1>
+              <h1 className="heading">15+</h1>
               <p className="card__title">TEAM MEMBERS</p>
             </div>
             <div className="mAgency__card">
               <h1 className="heading">300+</h1>
               <p className="card__title">DESIGN AND MARKETING PROJECTS</p>
             </div>
-            <div className="mAgency__card">
-              <h1 className="heading">92+</h1>
-              <p className="card__title">CLIENT RETENTION RATE</p>
-            </div>
           </div>
         </div>
-
 
         <div className="mAgency__right">
           <Swiper

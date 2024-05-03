@@ -22,7 +22,13 @@ const Home = () => {
       <ValuableClient />
       {/* <ReviewSlider /> */}
       <BannerVideo />
-      <OurPromise />
+      <OurPromise /><SeoServices
+        main={webMainImage}
+        top={webTopImage}
+        bottom={webBottomImage}
+        title={webTitle}
+        des={webDescription}
+      />
       <DigitalMarketing />
       <SeoServices
         main={main}
@@ -32,13 +38,7 @@ const Home = () => {
         des={des}
       />
       <PPCServices />
-      <SeoServices
-        main={webMainImage}
-        top={webTopImage}
-        bottom={webBottomImage}
-        title={webTitle}
-        des={webDescription}
-      />
+      
       <MarketingBenefit />
       <CSuccessSlider />
       <MarketingAudit />
@@ -54,9 +54,9 @@ const Home = () => {
 export default Home;
 
 // ----------seo services===========
-const title = "Ai SEO Services That Put You on Top";
+const title = "Enhance Your Visibility with Expert SEO Services";
 const des =
-  "Dominate search results with our AI SEO services, blending advanced technology and strategic optimization. Stay ahead of the competition with cutting-edge algorithms and machine learning for lasting success. Seamlessly integrate into the digital landscape, engaging your audience effortlessly. Welcome to a new era of digital prominence, where our AI SEO propels your brand to the top.";
+  "Elevate your brand to the top of search engine results with AI Tech Craft's expert SEO services. Recognizing that a significant portion of online users rely on search engines to find products and services, our approach is designed to maximize your visibility and capture that audience. Our extensive experience has generated substantial revenue for our clients by deploying tailored SEO strategies that are not only effective but also measurable. We are committed to excellence, ensuring our strategies yield top rankings and enhanced online presence. ";
 
 const main =
   "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/shutterstock_1520228513-1.jpg.webp";
@@ -67,9 +67,9 @@ const bottom =
 
 // -------------web design------------
 const webTitle =
-  "Empower your business with result-oriented Web Design Services";
+  "Innovative Web Solutions Tailored for Success";
 const webDescription =
-  "Crafting Your Digital Identity: Ai Tech Craft Shapes Your Online Presence, from Web Design to Result-Driven Marketing Solutions. Born as a web design pioneer, we've evolved into a comprehensive marketing partner, dedicated to attracting traffic and transforming leads into valued customers over the last decade.";
+  "Transform your online presence with AI Tech Craft, where we create more than just websites—we build your digital gateway to the world. Our bespoke web and web app development services are designed to make your brand stand out, showcasing your unique offerings and compelling visitors to engage. With a focus on aesthetic design and functional excellence, our solutions ensure your site not only attracts attention but also effectively converts visitors into loyal customers. Start your journey to a compelling online presence that drives results.";
 
 const webMainImage =
   "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Mask-group-1.jpg.webp";
