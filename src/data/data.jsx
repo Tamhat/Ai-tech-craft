@@ -1,40 +1,49 @@
 // ===========for hero card data===========
 import { BsRobot, BsFillFileEarmarkCodeFill } from "react-icons/bs";
 import { FaLaptopCode, FaBullhorn } from "react-icons/fa";
+import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
+import ServiceDetailsC from "../component/ServiceDetailsC/ServiceDetailsC";
+import AiDevelopment from "../component/AiDevelopment";
+import WebDevelopment from "../component/WebDevelopment";
+import CustomSoftware from "../component/CustomSoftware";
+import MobileAppDevelopment from "../component/MobileAppDevelopment";
+import DigitalMarketting from "../component/DigitalMarketting";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { VscGraph } from "react-icons/vsc";
 
 
 // ============navlinks===========
 export const navLinks = [
-    {
-        id: 1,
-        title: "home",
-        path: "/"
-    },
-    {
-        id: 2,
-        title: "about",
-        path: "/about"
-    },
-    {
-        id: 3,
-        title: "portfolio",
-        path: "/portfolio"
-    },
-    {
-        id: 4,
-        title: "services",
-        path: "/services"
-    },
-    {
-        id: 5,
-        title: "products",
-        path: "/products"
-    },
-    {
-        id: 6,
-        title: "contact",
-        path: "/contact"
-    },
+  {
+    id: 1,
+    title: "home",
+    path: "/"
+  },
+  {
+    id: 2,
+    title: "about",
+    path: "/about"
+  },
+  {
+    id: 3,
+    title: "portfolio",
+    path: "/portfolio"
+  },
+  {
+    id: 4,
+    title: "services",
+    path: "/services"
+  },
+  {
+    id: 5,
+    title: "products",
+    path: "/products"
+  },
+  {
+    id: 6,
+    title: "contact",
+    path: "/contact"
+  },
 ]
 
 // ==============hero card data===========
@@ -47,14 +56,13 @@ export const heroCardData = [
   },
   {
     id: 2,
-    icon: <FaLaptopCode />,
-    firstTitle: "Web",
-    lastTitle: "Development",
-  },
-  {
-    id: 3,
     icon: <BsFillFileEarmarkCodeFill />,
-    firstTitle: "Web Application",
+    firstTitle: "Custom Software",
+    lastTitle: "Development",
+  },{
+    id: 3,
+    icon: <FaLaptopCode />,
+    firstTitle: "Web & Web App",
     lastTitle: "Development",
   },
   {
@@ -62,6 +70,12 @@ export const heroCardData = [
     icon: <FaBullhorn />,
     firstTitle: "Digital",
     lastTitle: "Marketing",
+  },
+  {
+    id: 5,
+    icon:<HiMiniDevicePhoneMobile />,
+    firstTitle: "Mobile App",
+    lastTitle: "Development",
   },
 ];
 
@@ -74,26 +88,119 @@ export const servicesData = [
     des: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
     link: "ai-app-development"
   },
-  {
+ {
     id: 2,
     icon: <FaLaptopCode />,
-    title: "Web Development",
+    title: "Custom Software Development",
     des: "Revolutionize your online presence with our Web Development services. Our expert team transforms concepts into dynamic, user-friendly websites, ensuring your brand stands out in the digital realm. Elevate your online identity with our cutting-edge solutions.",
     link: "ai-app-development"
   },
   {
     id: 3,
     icon: <BsFillFileEarmarkCodeFill />,
-    title: "Web Application Development",
+    title: "Web and Web Application Development",
     des: "Empower your business with our Web Application Development services. We create custom, user-friendly web solutions that seamlessly blend innovation and functionality, elevating your online presence and optimizing performance.",
     link: "Web Development"
   },
   {
     id: 4,
-    icon: <FaBullhorn />,
-    title: "Ai Model",
+    icon: <HiMiniDevicePhoneMobile />,
+    title: "Mobile App Development",
     des: "Elevate your business with our AI Model service. Unlock insights, automate decisions, and stay ahead in the digital age",
-    link: "Ai Model"
+    link: "Ai-Model"
+  },
+  {
+    id: 5,
+    icon: <FaBullhorn />,
+    title: "Digital Marketting",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+];
+export const DigitalMarketting1 = [
+  {
+    id: 1,
+    icon: <BsRobot />,
+    title: "Marketing Strategy",
+    des: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
+    link: "ai-app-development"
+  },
+ {
+    id: 2,
+    icon: <FaLaptopCode />,
+    title: "Search Engine Optimization",
+    des: "Revolutionize your online presence with our Web Development services. Our expert team transforms concepts into dynamic, user-friendly websites, ensuring your brand stands out in the digital realm. Elevate your online identity with our cutting-edge solutions.",
+    link: "ai-app-development"
+  },
+  {
+    id: 3,
+    icon: <BsFillFileEarmarkCodeFill />,
+    title: "Conversion Rate Optimization (CRO)",
+    des: "Empower your business with our Web Application Development services. We create custom, user-friendly web solutions that seamlessly blend innovation and functionality, elevating your online presence and optimizing performance.",
+    link: "Web Development"
+  },
+  {
+    id: 4,
+    icon: <HiMiniDevicePhoneMobile />,
+    title: "PPC Advertising",
+    des: "Elevate your business with our AI Model service. Unlock insights, automate decisions, and stay ahead in the digital age",
+    link: "Ai-Model"
+  },
+  {
+    id: 5,
+    icon: <FaBullhorn />,
+    title: "Content Marketing and Management",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 6,
+    icon: <BsGraphUpArrow />,
+    title: "Web Design and Web Development",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 7,
+    icon: <VscGraph />,
+    title: "Local SEO",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 8,
+    icon: <FaBullhorn />,
+    title: "Social Media Marketing",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 9,
+    icon: <FaBullhorn />,
+    title: "Reputation Management",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 10,
+    icon: <FaBullhorn />,
+    title: "Email Marketing",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 11,
+    icon: <FaBullhorn />,
+    title: "Link-Building",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
+  },
+  {
+    id: 12,
+    icon: <FaBullhorn />,
+    title: "Video Marketing",
+    des: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    link: "digital-marketting"
   },
 ];
 
@@ -181,7 +288,7 @@ export const portfolioData = [
     linkedIn: "https://www.gogreenbooty.com/",
     twitter: "https://twitter.com/"
   },
-  
+
 ]
 // ==========leadership===========
 export const leaderShipData = [
@@ -239,7 +346,7 @@ export const leaderShipData = [
     linkedIn: "https://www.linkedin.com",
     twitter: "https://twitter.com/"
   },
-  
+
 ]
 
 // ========board member==========
@@ -336,26 +443,26 @@ export const liveRulesData = [
 // ========slider review==========
 export const reviewSliderData = [
   {
-    id:1,
-    img : "https://www.dataiku.com/wp-content/uploads/2023/07/deloitte.png",
+    id: 1,
+    img: "https://www.dataiku.com/wp-content/uploads/2023/07/deloitte.png",
     title: "Lorem ipsum dolor sit amet.",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
   },
   {
-    id:2,
-    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Pfizer-1.png",
+    id: 2,
+    img: "https://www.dataiku.com/wp-content/uploads/2023/07/Pfizer-1.png",
     title: "Lorem ipsum dolor sit amet.",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
   },
   {
-    id:3,
-    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Standart-Chartered-1.png",
+    id: 3,
+    img: "https://www.dataiku.com/wp-content/uploads/2023/07/Standart-Chartered-1.png",
     title: "Lorem ipsum dolor sit amet.",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
   },
   {
-    id:4,
-    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Vestas-1.png",
+    id: 4,
+    img: "https://www.dataiku.com/wp-content/uploads/2023/07/Vestas-1.png",
     title: "Lorem ipsum dolor sit amet.",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
   },
@@ -427,6 +534,105 @@ export const clientSuccessData = [
     categoryTitle: "Europa Eyewear"
   },
 ]
+export const projectData = [
+  {
+    id: 1,
+    img: "https://img001.prntscr.com/file/img001/AYtaY-BYRKytNoDCZXX5fQ.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+  {
+    id: 2,
+    img: "https://img001.prntscr.com/file/img001/zApLWApQTiG8mH0VjBC7eg.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+  {
+    id: 3,
+    img: "https://img001.prntscr.com/file/img001/21hj5SpIROaGFcJz-pzNTg.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+  {
+    id: 4,
+    img: "https://img001.prntscr.com/file/img001/uP908NrhQqa4KMtMQy0eqg.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+  {
+    id: 5,
+    img: "https://img001.prntscr.com/file/img001/5wsU_s41SF-W3yr9IqIxJg.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+  {
+    id: 6,
+    img: "https://img001.prntscr.com/file/img001/psbZ7pF9SIuQWmlUQNOmTQ.png",
+    rate: {
+      percent1: "REACT JS",
+      title1: "MERN",
+
+      percent2: "EXPRESS JS",
+      title2: "MONGODB",
+
+      percent3: "NODE JS",
+      title3: "TAILWIND CSS",
+    },
+    category: "Ai Tools Directory",
+    categoryTitle: "Ai Spotlight"
+  },
+
+]
 
 
 // =========marketing agency slider data============
@@ -457,30 +663,43 @@ export const ServiceDetailsData = [
     description1: "Transform Your Business with Advanced AI Development",
     description2: "At AI Tech Craft, we believe in making your business smarter, not harder. Our AI development services are crafted to breathe life into your operations, automating the mundane and revealing insights from the depths of your data. We specialize in transforming these insights into actionable strategies that enhance decision-making and boost operational efficiency. Let’s redefine what’s possible together, turning your visionary ideas into impactful realities with our innovative AI solutions.",
     img: "https://i.ibb.co/S5r62dg/poster-for-channel-telegrams-on-the-topic-of-AI-s.jpg",
+    component: <AiDevelopment/>
   },
   {
     id: 2,
-    title: "Web Development",
+    title: "Custom Software Development",
     description1: "Empower your business with AI Application Development. Our expert team creates intelligent",
     description2: "Empower your business with AI Application Development. Our expert team creates intelligent, efficient applications to boost productivity  and elevate user experiences. Stay at the forefront of innovation with our cutting-edge AI solutions.",
     img: "https://i.ibb.co/wJLtxXy/A-man-training-programmer-on-his-computer-1.jpg",
     // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+    component: <CustomSoftware/>
   },
   {
     id: 3,
-    title: "Web Application Development",
+    title: "Crafting Future-Proof Digital Experiences",
     description1: "Explore the core aspects of web application development, mastering both front-end and back-end techniques.",
-    description2: "Our AI-powered Web Application Development service leverages cutting-edge technology to enhance the efficiency and innovation of our projects.",
+    description2: "At AI Tech Craft, we stand at the intersection of technology and creativity, developing web and web app solutions that drive business efficiency and user engagement. With over a decade of expertise, our team delivers best-in-class web experiences through a human-centric approach and smart technological choices. From custom web applications and SaaS platforms to e-commerce and informative sites, our solutions are tailored to meet the diverse needs of our clients, ensuring scalable, impactful, and future-proof outcomes. Partner with us to turn your digital aspirations into reality.",
     img: "https://i.ibb.co/XxX7rgw/A-photo-of-a-website-builder-The-website-builder.jpg",
     // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+    component: <WebDevelopment/>
   },
   {
     id: 4,
-    title: "AI-Powered Model",
+    title: "Mobile App Development",
     description1: "Revolutionizing Intelligence: Unveiling an Advanced AI Model for Cutting-Edge Solutions",
     description2: "Our web page's AI model powers our Tech Craft Service, using advanced techniques for seamless and innovative solutions.",
     img: "https://i.ibb.co/hF9SWvw/glowing-brain.jpg",
     // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+    component: <MobileAppDevelopment/>
+  },
+  {
+    id: 5,
+    title: "Digital Marketting",
+    description1: "",
+    description2: "At AI Tech Craft, we offer digital marketing services designed to propel your business to new heights. Our expert strategies harness the power of performance marketing to broaden your reach and maximize engagement across diverse audiences. We are committed to enhancing both the quantity and quality of your new customers, focusing on impactful results that drive sustained growth. Let us help you navigate the complex digital landscape and capture the attention your brand deserves.",
+    img: "https://i.ibb.co/hF9SWvw/glowing-brain.jpg",
+    // img: "http://localhost:5173/src/assets/heroImage1.jpg",
+    component: <DigitalMarketting/>
   },
 ]
 

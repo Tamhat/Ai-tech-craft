@@ -1,12 +1,11 @@
-
-
 /* --------google fonts-------- */
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
 
   --color-primary: #231f20;
   --color-primary-soft: #413a3c;
@@ -25,7 +24,7 @@
   --color-light: #d6d6d6;
   --color-gray: rgba(69, 69, 69, 0.953);
 
-  
+
   --color-logo-Left: #6b07df;
   --color-logo-Right: #e52cd0;
 
@@ -42,7 +41,9 @@
 
 
 
-*,*::before,*::after{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,39 +51,43 @@
   border: none;
   outline: none;
   list-style: none;
-  p{
+
+  p {
     line-height: 1.6;
   }
 }
 
-html{
+html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
-*{
-  font-family: 'Montserrat', sans-serif!important;
+* {
+  font-family: 'Montserrat', sans-serif !important;
 }
+
 html,
-body{
+body {
   overflow-x: hidden;
 }
-img{
+
+img {
   width: 100%;
   display: block;
   object-fit: cover;
 }
 
-.container{
+.container {
   max-width: 1500px;
   width: var(--width-lg-screen);
   margin: 0 auto;
 }
 
-section{
+section {
   margin-top: 10rem;
 }
-.btn{
+
+.btn {
   width: max-content;
   padding: 1.2rem 3rem;
   background: linear-gradient(to right, var(--color-logo-Left), var(--color-logo-Right));
@@ -94,7 +99,7 @@ section{
 }
 
 
-.heading{
+.heading {
   font-size: 2.8rem;
   font-weight: 700;
   color: var(--color-primary);
@@ -102,17 +107,30 @@ section{
 
 
 /* ===========card title========== */
-.card__title{
+.card__title {
   font-size: 1.8rem;
   font-weight: 600;
   color: var(--color-primary);
 }
-.card__des{
+
+.card__des {
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-gray);
   line-height: 1.2;
 }
+
+
+
+.card__des1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-gray);
+  line-height: 1.2;
+  text-align: center;
+  margin: 20px 100px
+}
+
 
 
 
@@ -130,32 +148,37 @@ section{
 
 /* ===========Media Queries (mediam device)============= */
 @media screen and (max-width: 1024px) {
-  html{
+  html {
     font-size: 58.5%;
   }
-  .container{
+
+  .container {
     width: var(--width-md-screen);
   }
-  section{
+
+  section {
     margin-top: 8rem;
   }
-  
+
 }
 
 
 /* ===========Media Queries (small device)============= */
 @media screen and (max-width: 700px) {
-  html{
+  html {
     font-size: 55.5%;
   }
-  .container{
+
+  .container {
     width: var(--width-sm-screen);
   }
-  section{
+
+  section {
     margin-top: 6rem;
   }
-  .heading{
+
+  .heading {
     font-size: 2.5rem;
   }
-  
+
 }

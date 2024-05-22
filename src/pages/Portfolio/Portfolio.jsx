@@ -11,13 +11,8 @@ import RequestSubmit from "../../shared/RequestSubmit/RequestSubmit";
 const Portfolio = () => {
   return (
     <div>
-      {/* <h1>Portfolio</h1> */}
-      {/* <HeroAbout /> */}
-      {/* <OurMission /> */}
-      {/* <MarketingTeam /> */}
-      <Portfoliosec />
+      <Portfoliosec/>
       <JoinOurTeam />
-      {/* <LiveRules /> */}
       <RequestSubmit />
     </div>
   )

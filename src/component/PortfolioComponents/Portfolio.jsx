@@ -1,74 +1,90 @@
 import { useState } from 'react'
-import { portfolioData} from '../../data/data'
+import { portfolioData } from '../../data/data'
 import { IoMdClose } from "react-icons/io";
 import "../../helper/LCard/LCard.css";
 
-const Portfoliosec = () => {
-    const [buttonActive, setButtonActive] = useState(false);
-    // const { name, profile, title, description, linkedIn, twitter } = props;
-    const [readBio, setReadBio] = useState(false);
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { projectData } from "../../data/data";
+import ClientSuccessCard from "../../shared/ClientSuccessCard/ClientSuccessCard";
 
-    const handleBio = () => {
-        setReadBio(true);
-    };
+import "./portfolio.css";
+
+const Portfolio = () => {
 
 
-    return (
-        <section>
-            <div className="container leadershipteam__container">
-                <h1 className="heading">OUR PORTFOLIO</h1>
+  const [buttonActive, setButtonActive] = useState(false);
+  // const { name, profile, title, description, linkedIn, twitter } = props;
+  const [readBio, setReadBio] = useState(false);
 
-                <div className="LST__button">
-                    <button
-                        className={`LST__btn ${buttonActive ? "" : "active"}`}
-                        onClick={() => setButtonActive(false)}
-                    >
-                        Top Projects
-                    </button>
-                </div>
+  const handleBio = () => {
+    setReadBio(true);
+  };
 
-                <div className="tCard__data">
-                    {/* <div className="leadership"> */}
-                    {portfolioData?.map(curElem => (
-                        <div className="lcard__container" key={curElem.id}>
-                            <div className="profile">
-                                <img src={curElem.profile} alt="profile" />
-                            </div>
-                            <h1 className="heading">{curElem.name}</h1>
-                            <p className="card__des">{curElem.title}</p>
-                            <a href={curElem.link} className="link">
-                                <button className="read_bio">
-                                    Visit Project
-                                </button>
-                            </a>
 
-                            {readBio && (
-                                <div className="read__bio">
-                                    <div className="read__bio-bg">
-                                        <div className="left__bio">
-                                            <div className="profile">
-                                                <img src={curElem.profile} alt="profile" />
-                                            </div>
-                                        </div>
-                                        <div className="right__bio">
-                                            <h1 className="heading">{curElem.name}</h1>
-                                            <p className="card__des">{curElem.title}</p>
-                                            <p className="card__des">{curElem.description}</p>
-                                        </div>
-                                        <div className="close__btn" onClick={() => setReadBio(false)}>
-                                            <IoMdClose />
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                    ))}
-                    {/* </div> */}
-                </div>
-            </div>
+  return (
 
-        </section>
-    )
-}
+    <>
+      <section>
+        <div className="container cS__container">
+          <h1 className="text-7xl font-bold text-center">Our Portfolio</h1>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
 
-export default Portfoliosec
+            breakpoints={{
+              1024: {
+                slidesPerView: 2,
+              },
+            }}
+          >
+            {projectData &&
+              projectData?.map((curElem) => {
+                return (
+                  <SwiperSlide key={curElem.id}>
+                    <ClientSuccessCard {...curElem} />
+                  </SwiperSlide>
+                )
+              })}
+          </Swiper>
+        </div>
+      </section>
+   
+    </>
+
+  );
+};
+
+export default Portfolio;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const Portfoliosec = () => {
+
+
+//     return (
+//
+//     )
+// }
+
+// export default Portfoliosec

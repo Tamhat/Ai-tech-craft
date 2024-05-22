@@ -7,7 +7,7 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <section className="hero__bg">
-      <div className="container hero__container bg-black">
+      <div className="container hero__container ">
         {/* =======hero left section========== */}
         <div className="hero__left">
           <h1 className="hero__heading">
@@ -21,7 +21,7 @@ const HeroSection = () => {
             <button>Learn More</button>
           </div>
 
-          <div className="hero__card-container">
+          <div className="hero__card-container text-">
             <h5>Our Services: </h5>
             <div className="hero__card">
               {heroCardData &&
